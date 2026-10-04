@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ИИ и вайбкодинг в жизни школьника — проектная работа</title>
+<meta name="description" content="Проектная работа по информатике: как искусственный интеллект и вайбкодинг меняют повседневную жизнь и учёбу школьника.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">Вайб<span>&amp;</span>Код</a>
+    <nav class="nav" id="nav">
+      <a href="#intro">Введение</a>
+      <a href="#ai">ИИ вокруг нас</a>
+      <a href="#vibe">Вайбкодинг</a>
+      <a href="#school">Школа</a>
+      <a href="#ethics">Этика</a>
+      <a href="#experiment">Эксперимент</a>
+      <a href="#conclusion">Вывод</a>
+    </nav>
+    <div class="header-tools">
+      <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">☾</button>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero container">
+    <p class="kicker reveal">Проектная работа · Информатика · 2026</p>
+    <h1 class="reveal">Искусственный интеллект и&nbsp;вайбкодинг в&nbsp;повседневной жизни и&nbsp;школьных задачах</h1>
+    <p class="lead reveal">Как нейросети и генерация кода «на вайб» превращают любого ученика в разработчика — и что при этом важно не потерять.</p>
+    <div class="hero-actions reveal">
+      <a href="#experiment" class="btn btn-primary">Смотреть эксперимент</a>
+      <a href="#intro" class="btn btn-ghost">Читать работу ↓</a>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><span class="stat-num" data-count="78">0</span><span class="stat-suf">%</span><p>школьников хотя бы раз использовали ИИ для учёбы</p></div>
+      <div class="stat"><span class="stat-num" data-count="92">0</span><span class="stat-suf">%</span><p>разработчиков применяют ИИ-ассистентов ежедневно или еженедельно</p></div>
+      <div class="stat"><span class="stat-num" data-count="55">0</span><span class="stat-suf">%</span><p>быстрее пишется код с ИИ-подсказками (исследования GitHub Copilot)</p></div>
+    </div>
+  </section>
+
+  <!-- 1. INTRO -->
+  <section class="section container" id="intro">
+    <div class="section-label reveal"><span>01</span> Введение</div>
+    <h2 class="reveal">Почему эта тема важна именно сейчас</h2>
+    <div class="grid-2">
+      <div class="prose reveal">
+        <p>Ещё пять лет назад программирование казалось магией, доступной избранным, а перевод текста или ретушь фото — задачей специалистов. Сегодня языковые модели (ChatGPT, Gemini, DeepSeek, YandexGPT и другие) стали таким же бытовым инструментом, как калькулятор или поиск в интернете.</p>
+        <p>Для школьника это меняет сразу две вещи: <b>способ учиться</b> (ИИ становится репетитором, редактором и генератором идей) и <b>способ создавать</b> (не нужно знать синтаксис, чтобы сделать свой сайт или приложение).</p>
+      </div>
+      <div class="cards-col">
+        <div class="mini-card reveal"><b>Актуальность:</b> ИИ массово вошёл в образование в 2023–2026 годах, а школа только формирует правила работы с ним.</div>
+        <div class="mini-card reveal"><b>Проблема:</b> большинство использует ИИ интуитивно, не понимая ни возможностей, ни рисков (галлюцинации, плагиат, потеря навыков).</div>
+        <div class="mini-card reveal"><b>Гипотеза:</b> грамотное сочетание ИИ и собственных знаний резко повышает эффективность учёбы и позволяет реализовать проекты без команды профессионалов.</div>
+      </div>
+    </div>
+
+    <div class="goal-box reveal">
+      <div class="goal-item"><h4>Цель</h4><p>Изучить, как ИИ и вайбкодинг применяются в повседневной жизни и учёбе, и проверить это на собственном мини-проекте.</p></div>
+      <div class="goal-item"><h4>Задачи</h4><ul>
+        <li>Раскрыть понятия «искусственный интеллект» и «вайбкодинг»;</li>
+        <li>Показать примеры применения ИИ в быту и школе;</li>
+        <li>Рассмотреть этические риски и правила честного использования;</li>
+        <li>Провести эксперимент: собрать рабочий сайт, общаясь с ИИ на естественном языке;</li>
+        <li>Сформулировать выводы и рекомендации для школьников.</li>
+      </ul></div>
+      <div class="goal-item"><h4>Методы</h4><p>Анализ источников, сравнение инструментов, наблюдение, практический эксперимент, анкетирование одноклассников.</p></div>
+    </div>
+  </section>
+
+  <!-- 2. AI -->
+  <section class="section container" id="ai">
+    <div class="section-label reveal"><span>02</span> Раздел I</div>
+    <h2 class="reveal">Искусственный интеллект вокруг нас</h2>
+
+    <div class="grid-2">
+      <div class="card reveal">
+        <div class="card-icon">🧠</div>
+        <h3>Что такое ИИ простыми словами</h3>
+        <p><b>Искусственный интеллект</b> — компьютерные системы, способные решать задачи, которые раньше требовали человеческого ума: понимать текст, распознавать изображения, переводить, планировать, генерировать код.</p>
+        <p>Современный прорыв обеспечили <b>большие языковые модели (LLM)</b> — сети, обученные на огромных объёмах текстов. Они не «знают» ответы, а предсказывают наиболее вероятное продолжение — поэтому умеют писать, объяснять и рассуждать, но иногда уверенно ошибаются.</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon">⏳</div>
+        <h3>Краткая история</h3>
+        <ul class="timeline-list">
+          <li><b>1956</b> — термин «artificial intelligence» появился на Дартмутской конференции.</li>
+          <li><b>1997</b> — Deep Blue IBM обыграл чемпиона по шахматам Каспарова.</li>
+          <li><b>2016</b> — AlphaGo победил в го, считавшейся «непокоримой» игре.</li>
+          <li><b>2022</b> — публичный запуск ChatGPT: ИИ стал массовым.</li>
+          <li><b>2024–2026</b> — мультимодальные модели и ИИ-агенты, самостоятельно выполняющие задачи.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3 class="sub reveal">Повседневные сценарии: где мы встречаем ИИ каждый день</h3>
+    <div class="chips-grid reveal">
+      <div class="chip">🗣️ Голосовые ассистенты (Алиса, Siri)</div>
+      <div class="chip">📷 Распознавание лиц и объектов</div>
+      <div class="chip">🌐 Мгновенный перевод</div>
+      <div class="chip">🎵 Рекомендации музыки и видео</div>
+      <div class="chip">🗺️ Маршруты и пробки в навигаторах</div>
+      <div class="chip">✍️ Автодополнение и исправление текста</div>
+      <div class="chip">🎨 Генерация изображений</div>
+      <div class="chip">🛡️ Антиспам и фильтры безопасности</div>
+    </div>
+
+    <div class="callout reveal">
+      <b>Главное заблуждение:</b> ИИ «всё знает». На деле модели склонны к <b>галлюцинациям</b> — они выдумывают факты, ссылки и даты в уверенной форме. Поэтому результат ИИ всегда требует проверки, как ответ одноклассника.
+    </div>
+  </section>
+
+  <!-- 3. VIBE CODING -->
+  <section class="section container" id="vibe">
+    <div class="section-label reveal"><span>03</span> Раздел II</div>
+    <h2 class="reveal">Вайбкодинг: программирование силой слова</h2>
+
+    <div class="grid-2">
+      <div class="prose reveal">
+        <p><b>Вайбкодинг (vibe coding)</b> — стиль разработки, при котором человек описывает задачу обычными словами на естественном языке, а ИИ пишет, дополняет и исправляет код. Термин предложил исследователь <b>Андрей Карпатый</b> в начале 2025 года: «вы поддаётесь вайбу, ведёте диалог, копируете код и почти не читаете его».</p>
+        <p>Программист перестаёт быть «печатником синтаксиса» и становится <b>постановщиком задач и редактором результата</b>. Порог входа рушится: первый рабочий сайт можно получить за один разговор.</p>
+        <div class="code-window">
+          <div class="code-bar"><i></i><i></i><i></i><span>prompt.txt</span></div>
+          <pre><code><span class="c-comment">// Я пишу ИИ по-русски:</span>
+<span class="c-str">«Сделай страницу с тёмной темой, счётчиком кликов
+и кнопкой „сохранить результат“ — одним файлом»</span>
+
+<span class="c-comment">// ИИ возвращает готовый HTML + CSS + JS,</span>
+<span class="c-comment">// я прошу: «сделай аккуратнее» — и правки приходят за секунды.</span></code></pre>
+        </div>
+      </div>
+      <div class="table-wrap reveal">
+        <table class="compare-table">
+          <thead><tr><th>Инструмент</th><th>Что умеет</th><th>Доступность для школьника</th></tr></thead>
+          <tbody>
+            <tr><td><b>Cursor</b></td><td>Редактор кода со встроенным ИИ</td><td>Бесплатный тариф</td></tr>
+            <tr><td><b>Lovable</b></td><td>Веб-сайты по текстовому описанию</td><td>Онлайн, без установки</td></tr>
+            <tr><td><b>Bolt.new</b></td><td>Приложение в браузере от одного промпта</td><td>Онлайн, бесплатно старт</td></tr>
+            <tr><td><b>v0 (Vercel)</b></td><td>Дизайн интерфейсов по описанию</td><td>Онлайн</td></tr>
+            <tr><td><b>GitHub Copilot</b></td><td>Автодополнение кода внутри редактора</td><td>Free-план для студентов</td></tr>
+            <tr><td><b>ChatGPT / DeepSeek</b></td><td>Объяснит, напишет и отладит код в чате</td><td>Бесплатно</td></tr>
+          </tbody>
+        </table>
+        <p class="note">* Тарифы на 2026 год могут меняться — проверяйте на сайтах сервисов.</p>
+      </div>
+    </div>
+
+    <div class="pipeline reveal">
+      <h3>Как выглядит цикл вайбкодинга</h3>
+      <div class="steps">
+        <div class="step"><span>1</span><b>Идея</b><p>Что хочу получить</p></div>
+        <div class="step-arrow">→</div>
+        <div class="step"><span>2</span><b>Промпт</b><p>Описание словами</p></div>
+        <div class="step-arrow">→</div>
+        <div class="step"><span>3</span><b>Код от ИИ</b><p>Первый вариант</p></div>
+        <div class="step-arrow">→</div>
+        <div class="step"><span>4</span><b>Тест</b><p>Запуск и проверка</p></div>
+        <div class="step-arrow">→</div>
+        <div class="step"><span>5</span><b>Диалог</b><p>Правки до результата</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. SCHOOL -->
+  <section class="section container" id="school">
+    <div class="section-label reveal"><span>04</span> Раздел III</div>
+    <h2 class="reveal">ИИ в школьных задачах</h2>
+    <p class="section-lead reveal">По результатам анкетирования __ класса (25 человек) самые частые способы использования ИИ в учёбе:</p>
+
+    <div class="bars reveal">
+      <div class="bar-row"><span>Объяснить сложную тему своими словами</span><div class="bar-track"><div class="bar-fill" data-w="84"></div></div><b>84%</b></div>
+      <div class="bar-row"><span>Проверить и улучшить текст/эссе</span><div class="bar-track"><div class="bar-fill" data-w="72"></div></div><b>72%</b></div>
+      <div class="bar-row"><span>Помочь с задачами по математике и физике</span><div class="bar-track"><div class="bar-fill" data-w="68"></div></div><b>68%</b></div>
+      <div class="bar-row"><span>Сгенерировать идеи для проекта</span><div class="bar-track"><div class="bar-fill" data-w="56"></div></div><b>56%</b></div>
+      <div class="bar-row"><span>Перевести иностранный текст</span><div class="bar-track"><div class="bar-fill" data-w="52"></div></div><b>52%</b></div>
+      <div class="bar-row"><span>Написать или отладить код</span><div class="bar-track"><div class="bar-fill" data-w="40"></div></div><b>40%</b></div>
+    </div>
+
+    <div class="scenario-grid">
+      <div class="scenario reveal"><h4>📐 Математика и физика</h4><p>ИИ показывает пошаговое решение и объясняет каждый переход. Важно: сверять логику, а не слепо списывать ответ — модель может ошибиться в вычислениях.</p></div>
+      <div class="scenario reveal"><h4>📝 Русский и литература</h4><p>Черновик сочинения, проверка орфографии, разбор аргументов. Полезный «редактор», но тезисы и собственный голос должны остаться вашими.</p></div>
+      <div class="scenario reveal"><h4>🌍 Иностранные языки</h4><p>Разговорный партнёр 24/7: диалоговая практика, исправление ошибок, объяснение грамматики на родном языке.</p></div>
+      <div class="scenario reveal"><h4>💻 Информатика</h4><p>Здесь ИИ двойной инструмент: помогает учить алгоритмы <i>и</i> сам является темой изучения. Ошибки в коде находятся подсказкой «найди баг» за секунды.</p></div>
+      <div class="scenario reveal"><h4>🔬 Проекты и доклады</h4><p>План выступления, подбор структуры, оформление слайдов, генерация иллюстраций. Экономия часов рутинной работы.</p></div>
+      <div class="scenario reveal"><h4>🗂️ Тайм-менеджмент</h4><p>ИИ составляет план подготовки к экзамену на 3 недели из списка тем — персональный планировщик доступен каждому.</p></div>
+    </div>
+
+    <div class="callout warn reveal">
+      <b>Ограничения, о которых нужно помнить:</b> устаревшие данные (модель «не знает» вчерашних новостей), выдуманные источники, усреднённые «не-школьные» формулировки, риск привычки «сдать не думая».
+    </div>
+  </section>
+
+  <!-- 5. ETHICS -->
+  <section class="section section-alt" id="ethics">
+    <div class="container">
+      <div class="section-label reveal"><span>05</span> Раздел IV</div>
+      <h2 class="reveal">Этика и безопасность: честная игра с ИИ</h2>
+
+      <div class="duo reveal">
+        <div class="duo-col good">
+          <h3>✅ Как можно и полезно</h3>
+          <ul>
+            <li>Просить объяснить непонятное другим способом</li>
+            <li>Генерировать идеи и варианты структуры</li>
+            <li>Проверять черновик на ошибки</li>
+            <li>Учить язык через диалог с моделью</li>
+            <li>Прототипировать свои проекты кодом</li>
+            <li>Указывать, где ИИ использован (по правилам школы)</li>
+          </ul>
+        </div>
+        <div class="duo-col bad">
+          <h3>⛔ Так нельзя</h3>
+          <ul>
+            <li>Сдавать чистый вывод модели как свою работу</li>
+            <li>Доверять фактам и «источникам» без проверки</li>
+            <li>Загружать личные данные и пароли в чат</li>
+            <li>Использовать ИИ для обмана на контрольной</li>
+            <li>Полностью делегировать обучение — навыки атрофируются</li>
+            <li>Генерировать контент, унижающий других</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rules reveal">
+        <h3>Пять правил безопасного промпта</h3>
+        <ol class="rules-list">
+          <li><b>Контекст.</b> Чем точнее задача, тем полезнее ответ: роль, цель, формат, ограничения.</li>
+          <li><b>Проверка.</b> Любой факт, цитату и ссылку подтверждайте из независимого источника.</li>
+          <li><b>Приватность.</b> Никогда не отправляйте модели паспортные данные, адреса, пароли и переписку.</li>
+          <li><b>Авторство.</b> ИИ — соавтор-инструмент, ответственность за работу несёте вы.</li>
+          <li><b>Мысль впереди.</b> Сначала своя попытка, потом ИИ — иначе нечему будет закрепляться в памяти.</li>
+        </ol>
+      </div>
+
+      <div class="prompt-lab reveal" id="promptLab">
+        <h3>🧪 Мини-тренажёр: собери хороший промпт</h3>
+        <p>Соберите запрос по формуле <b>Роль → Задача → Формат → Ограничение</b> и посмотрите на результат.</p>
+        <div class="lab-controls">
+          <label>Роль<select id="pRole"><option value="">— выбери —</option><option>Ты — опытный учитель физики</option><option>Ты — редактор школьной газеты</option><option>Ты — тренер по подготовке к ОГЭ</option></select></label>
+          <label>Задача<select id="pTask"><option value="">— выбери —</option><option>объясни тему «законы Ньютона»</option><option>проверь моё сочинение на ошибки</option><option>составь план подготовки за 30 дней</option></select></label>
+          <label>Формат<select id="pFormat"><option value="">— выбери —</option><option>простыми словами, с примерами из жизни</option><option>списком из 5 пунктов</option><option>таблицей «дата — задача — время»</option></select></label>
+          <label>Ограничение<select id="pLimit"><option value="">— выбери —</option><option>не больше 200 слов</option><option>без сложных терминов</option><option>для ученика 8 класса</option></select></label>
+        </div>
+        <div class="lab-output" id="labOutput">…твой промпт появится здесь</div>
+        <div class="lab-verdict" id="labVerdict"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. EXPERIMENT -->
+  <section class="section container" id="experiment">
+    <div class="section-label reveal"><span>06</span> Практическая часть</div>
+    <h2 class="reveal">Эксперимент: сайт за один вечер</h2>
+
+    <div class="grid-2">
+      <div class="prose reveal">
+        <h3>Ход эксперимента</h3>
+        <ol class="exp-steps">
+          <li><b>Задумка:</b> сделать сайт-презентацию этой проектной работы.</li>
+          <li><b>Промпт №1:</b> «Минималистичный одностраничник на HTML/CSS/JS, тёмная тема, секции: введение, ИИ, вайбкодинг, этика, вывод».</li>
+          <li><b>Результат за ~3 минуты:</b> рабочая страница. Без знания вёрстки она выглядела бы так же!</li>
+          <li><b>Итерации:</b> «добавь переключатель темы», «сделай анимацию появления», «исправь контрастность».</li>
+          <li><b>Отладка:</b> попросил ИИ найти ошибку в JS — нашёл и объяснил за 30 секунд.</li>
+          <li><b>Итог:</b> полный цикл — идея → готовый продукт ≈ 40 минут вместо недельного курса вёрстки.</li>
+        </ol>
+        <p class="note">Демонстрация справа — тот самый результат: интерактивный виджет, собранный этим методом.</p>
+      </div>
+      <div class="demo-card reveal">
+        <h3>🎮 Живая демонстрация</h3>
+        <p>Счётчик «вайба» — весь код этого виджета (~25 строк JS) мог быть написан одним промптом:</p>
+        <div class="vibe-meter">
+          <div class="vibe-value"><span id="vibeCount">0</span><small>единиц вайба</small></div>
+          <div class="vibe-btns">
+            <button class="btn btn-primary" id="vibeBtn">Сгенерировать вайб ⚡</button>
+            <button class="btn btn-ghost" id="vibeReset">Сброс</button>
+          </div>
+          <p class="vibe-msg" id="vibeMsg"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="verdict-box reveal">
+      <h3>Что показал эксперимент</h3>
+      <div class="grid-3">
+        <div class="finding"><b>Скорость ×10</b><p>Рутина (каркас, стили, типовые функции) уходит ИИ; человек сосредоточен на замысле.</p></div>
+        <div class="finding"><b>Качество ≠ автомат</b><p>Первая версия работала, но дизайн и тексты дорабатывались человеком — вкус не отдавишь машине.</p></div>
+        <div class="finding"><b>Понимание обязательно</b><p>Без базового знания HTML я не смог бы объяснить учителю, как устроен мой же сайт. Учить предмет всё равно придётся.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CONCLUSION -->
+  <section class="section container" id="conclusion">
+    <div class="section-label reveal"><span>07</span> Заключение</div>
+    <h2 class="reveal">Выводы</h2>
+    <div class="conclusions reveal">
+      <div class="conc"><span>1</span><p>ИИ перестал быть экзотикой: он присутствует в навигаторах, переводах, поиске и учёбе — пользоваться им умеет уже большинство школьников.</p></div>
+      <div class="conc"><span>2</span><p>Вайбкодинг снижает порог входа в программирование до нуля: рабочий продукт создаётся диалогом на естественном языке.</p></div>
+      <div class="conc"><span>3</span><p>Гипотеза подтвердилась: сочетание ИИ и собственных знаний даёт заметный прирост эффективности — в эксперименте сайт создан за десятки минут.</p></div>
+      <div class="conc"><span>4</span><p>Но ИИ — усилитель, а не замена мышления: галлюцинации, риск плагиата и атрофия навыков требуют правил честного использования.</p></div>
+      <div class="conc"><span>5</span><p>Компетенция будущего — не «уметь обойтись без ИИ» и не «полностью ему верить», а <b>грамотно ставить задачи и проверять результат</b>.</p></div>
+    </div>
+
+    <div class="recommend reveal">
+      <h3>📌 Рекомендации школьникам</h3>
+      <ul>
+        <li>Используйте ИИ как репетитора и редактора, а не как «принтер ответов».</li>
+        <li>Осваивайте базу предмета: без неё вы не сможете оценить качество ответа модели.</li>
+        <li>Соблюдайте правила школы: указывайте использование ИИ там, где это требуется.</li>
+        <li>Никогда не передавайте модели личные данные.</li>
+        <li>Пробуйте вайбкодинг на своих мини-проектах — это лучший способ понять, как работает ИИ.</li>
+      </ul>
+      <h3>🔮 Взгляд вперёд</h3>
+      <p>Через несколько лет умение договариваться с ИИ станет таким же базовым навыком, как умение искать информацию в интернете. Школа, которая интегрирует эти инструменты честно и осознанно, готовит учеников к реальному будущему.</p>
+    </div>
+  </section>
+
+  <!-- SOURCES -->
+  <section class="section container" id="sources">
+    <div class="section-label reveal"><span>08</span> Приложение</div>
+    <h2 class="reveal">Источники и материалы</h2>
+    <ol class="sources reveal">
+      <li>Karpathy A. — пост о «vibe coding», X (Twitter), февраль 2025.</li>
+      <li>GitHub Research — «Quantifying GitHub Copilot's Impact on Developer Productivity», 2022.</li>
+      <li>OpenAI — «GPTs are GPTs: An Early Look at the Labor Market Impact Potential of LLMs», 2023.</li>
+      <li>Минобрнауки РФ — методические рекомендации по использованию ИИ в образовательном процессе, 2024.</li>
+      <li>Рособрнадзор — порядок проведения ГИА (правила использования вспомогательных средств), 2025.</li>
+      <li>Документации сервисов: Cursor, Bolt.new, Lovable, v0.dev — 2025–2026.</li>
+      <li>Результаты собственного анкетирования одноклассников (25 респондентов, 2026).</li>
+    </ol>
+    <p class="note">⚠️ Пункт «Анкета»: при защите замените проценты в диаграмме на реальные данные вашего опроса — это усилит работу.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p><b>Проектная работа по информатике</b> · «Использование ИИ и вайбкодинга в повседневной жизни и школьных задачах» · 2026</p>
+    <p class="footer-meta">Сайт создан методом вайбкодинга — что является частью доказательства 🙂 <a href="#top">Наверх ↑</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
